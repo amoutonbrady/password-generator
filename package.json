@@ -6,7 +6,7 @@
     "lint": "prettier --check \"src/**/*.{ts,js}\""
   },
   "dependencies": {
-    "solid-js": "^0.22.10",
+    "solid-js": "^0.23.0",
     "workbox-window": "^6.0.2"
   },
   "devDependencies": {
@@ -16,13 +16,14 @@
     "@snowpack/plugin-optimize": "^0.2.10",
     "@snowpack/plugin-postcss": "^1.0.8",
     "@snowpack/plugin-typescript": "^1.1.1",
+    "@tailwindcss/forms": "^0.2.1",
     "@types/snowpack-env": "^2.3.2",
     "autoprefixer": "^10.0.4",
-    "babel-preset-solid": "^0.22.9",
-    "postcss": "^8.1.13",
+    "babel-preset-solid": "^0.23.0",
+    "postcss": "^8.1.14",
     "postcss-cli": "^8.3.0",
     "prettier": "^2.2.1",
-    "snowpack": "^2.18.0",
+    "snowpack": "^3.0.0-rc.1",
     "tailwindcss": "^2.0.1",
     "typescript": "^4.1.2",
     "workbox-cli": "^6.0.2"
